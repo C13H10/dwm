@@ -69,7 +69,7 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = {"dmenu_run", NULL};
 static const char *roficmd[] = {"rofi", "-show", "drun", "-show-icons", NULL};
-static const char *termcmd[] = {"kitty", NULL};
+static const char *termcmd[] = {"st", NULL};
 
 #include "movestack.c"
 static Key keys[] = {
