@@ -1,4 +1,4 @@
-all: poly
+all: nopoly
 
 nopoly:
 	@rm -rf ~/.dwm
