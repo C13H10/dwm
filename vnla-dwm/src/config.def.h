@@ -9,7 +9,7 @@ static unsigned int gappx = 7;
 static const int showbar = 1; /* 0 means no bar */
 static const int topbar = 1;  /* 0 means bottom bar */
 
-static const int user_bh            = 30;        /* 0 means that dwm will calculate bar height, >= 1 means dwm will user_bh as bar height */
+static const int user_bh = 30;        /* 0 means that dwm will calculate bar height, >= 1 means dwm will user_bh as bar height */
 
 static const char *fonts[] = {"JetbrainsMono Nerd Font:size=11"};
 static const char dmenufont[] = "JetbrainsMono Nerd Font:size=11";
@@ -17,7 +17,7 @@ static const char col_gray1[] = "#3B4252";
 static const char col_gray2[] = "#3B4252";
 static const char col_gray3[] = "#D8DEE9";
 static const char col_gray4[] = "#E5E9F0";
-static const char col_cyan[] = "#5E81AC";
+static const char col_cyan[] = "#81A1C1";
 static const char *colors[][3] = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = {col_gray3, col_gray1, col_gray2},
@@ -25,7 +25,7 @@ static const char *colors[][3] = {
 };
 
 /* tagging */
-static const char *tags[] = {"  ", "  ", " ﭮ ", "  ", "  ", "  ", "  "};
+static const char *tags[] = {"","","","","","","",""};
 
 static const unsigned int ulinepad	= 0;	/* horizontal padding between the underline and tag */
 static const unsigned int ulinestroke	= 2;	/* thickness / height of the underline */
