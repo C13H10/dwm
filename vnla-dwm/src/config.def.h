@@ -22,7 +22,7 @@ static const char *colors[][3]      = {
 [SchemeSel]      = { col_white, col_bg,  col_border  },
 };
 /* tagging */
-static const char *tags[] = {"","","","","","","",""};
+static const char *tags[] = {"  ","  ","  ","  ","  ","  ","  ","  "};
 
 static const unsigned int ulinepad	= 0;	/* horizontal padding between the underline and tag */
 static const unsigned int ulinestroke	= 2;	/* thickness / height of the underline */
